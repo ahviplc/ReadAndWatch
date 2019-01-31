@@ -32,9 +32,9 @@ var local_database = [
         avatar: "/images/avatar/1.png",
         postId: 1,
         music: {
-            url: "https://m10.music.126.net/20190131120059/3c1c2319c8a69bba4b5afa4da47784ef/ymusic/705a/b88c/b84e/ced8f9e08c9e6c9970ee894a66361a6a.mp3",
-            title: "今晩はお月さん（今晚月色真好） - ハンバート ハンバート",
-            coverImg: "http://p1.music.126.net/udVa4wtLgMA_XWnWPq3jxg==/703687441788470.jpg"
+          url: "http://dl.stream.qqmusic.qq.com/C400002a1wxG3aNIUN.m4a?guid=5075515359&vkey=0A8D74678771BA1D4270CA5F189CF952E1A739461F65CE6674F4AEF8575BF358ED3DA8B9553AFC938B30B57D42C340FFD3E1A58F68A6A5AB&uin=0&fromtag=66",
+          title: "雪の華-中島美嘉 (なかしま みか)",
+          coverImg: "https://y.gtimg.cn/music/photo_new/T002R300x300M000001XYVh11mcf1l.jpg"
         }
     },
     {
@@ -109,7 +109,7 @@ var local_database = [
         avatar: "../../../images/avatar/5.png",
         postId: 5,
         music: {
-          url: "https://m10.music.126.net/20190131120936/d16cf8afda325df5ba210b7bafc83f06/ymusic/722d/3423/8e4b/cde2ef1e41c58dad5683f50d3cf4da48.mp3",
+          url: "http://222.73.132.153/amobile.music.tc.qq.com/C400004WwYrR0Uhdzk.m4a?guid=5075515359&vkey=329A1C3393E8BB71F069A851A72EA8D1C4E552B1B298FDCEE8399FCD9F3FE859400512A6DDAAA0225A27073C772F5B577C9F488B1430F5C0&uin=0&fromtag=66",
           title: "小幸运（电影《我的少女时代》主题曲-田馥甄",
           coverImg: "http://p2.music.126.net/bwBsDMYJcFetIc-q_oWjAw==/109951163520335473.jpg"
         }
