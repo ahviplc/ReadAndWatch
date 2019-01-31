@@ -1,0 +1,23 @@
+<!-- <view class="container">
+   <image class="avatar" src="/images/avatar/1.png"></image> 
+    <text class="motto">Hello, 七月</text>
+    <view class="journey-container" bindtap="onTap">
+        <text class="journey">开启小程序之旅</text>
+    </view>
+</view> -->
+
+
+<view class="container">
+    <image class="avatar" 
+    src="{{userInfo==null?'/images/avatar/1.png':userInfo.avatarUrl }}"></image>
+    <text class="motto">
+    Hello, {{userInfo==null?'七月':userInfo.nickName}}</text>
+
+    <block wx:if="{{userInfo!=null}}">
+    <text class="genderSex">{{genderSex}}</text>
+    <text class="userInfo">{{userInfo.country}},{{userInfo.province}},{{userInfo.city}}</text>
+   </block>
+    <view class="journey-container" bindtap="onTap">
+        <text class="journey">开启小程序之旅</text>
+    </view>
+</view>
