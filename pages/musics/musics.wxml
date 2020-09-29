@@ -10,9 +10,8 @@
 	<text>音乐搜索列表</text>
 	<text>\n</text>
 	<block wx:for="{{searchResult.Musics}}" wx:key="key" wx:for-item="movie">
-		{{movie.MusicId}} | 	{{movie.name}} | 	{{movie.artist}} | 	{{movie.artistImg}} | 	{{movie.mark}}
-    <text>\n</text>
-    <text>\n</text>
+		{{movie.MusicId}} | {{movie.name}} | {{movie.artist}} | {{movie.artistImg}} | {{movie.mark}}
+		<text>\n</text>
+		<text>\n</text>
 	</block>
-	
 </view>
