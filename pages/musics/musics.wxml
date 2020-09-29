@@ -1,0 +1,18 @@
+<view class="music">
+	<text>搜索框</text>
+	<input type="text" name="searchData" placeholder="请输入歌曲名" bindinput="searchDataInput" />
+	<button bindtap="onBindBlur">点我,搜索音乐</button>
+	<text>我是text</text>
+	{{ message }}
+	<text>\n</text>
+	{{searchResult.categoryTitle}}
+	<text>\n</text>
+	<text>音乐搜索列表</text>
+	<text>\n</text>
+	<block wx:for="{{searchResult.Musics}}" wx:key="key" wx:for-item="movie">
+		{{movie.MusicId}} | 	{{movie.name}} | 	{{movie.artist}} | 	{{movie.artistImg}} | 	{{movie.mark}}
+    <text>\n</text>
+    <text>\n</text>
+	</block>
+	
+</view>

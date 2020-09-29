@@ -1,0 +1,5 @@
+music{
+  width:100%;
+  height:600rpx;
+  color: blue;
+}

@@ -13,7 +13,9 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.98",
 	"appid": "wx4a1ed2a891f9d9ee",
-	"projectname": "ahviplc",
+	"projectname": "ReadAndWatch",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

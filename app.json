@@ -5,14 +5,15 @@
     "pages/movies/movies",
     "pages/movies/movie-detail/movie-detail",
     "pages/posts/post-detail/post-detail",
-    "pages/movies/more-movie/more-movie"
+    "pages/movies/more-movie/more-movie",
+    "pages/musics/musics"
   ],
   "window": {
     "navigationBarBackgroundColor": "#405f80"
   },
   "tabBar": {
     "borderStyle": "white",
-    "position":"bottom",
+    "position": "bottom",
     "list": [
       {
         "pagePath": "pages/posts/post",
@@ -25,7 +26,14 @@
         "text": "电影",
         "iconPath": "images/tab/dianying.png",
         "selectedIconPath": "images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/musics/musics",
+        "text": "音乐",
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
